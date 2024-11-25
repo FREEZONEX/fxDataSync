@@ -20,8 +20,7 @@ public class Job {
 
 
     /**
-     * 30秒 执行一次
-     */
+     * 5分钟执行一次      */
     @Scheduled(cron = "0 0/5 * * * ? ")
     public void sendData() throws IOException, InterruptedException {
 
