@@ -1,7 +1,12 @@
 package org.niiish32x.fxdemo.service;
 
+import java.io.IOException;
+
 public interface DataSendService {
 
-    public void sendToSupos(String post_url,String prefix,String jsonData) ;
 
+
+    void postToSuposTest(String jsonData, String prefix) throws IOException, InterruptedException;
+
+    public void postToSuposProd(String jsonData) ;
 }
