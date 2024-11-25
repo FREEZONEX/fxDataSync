@@ -1,4 +1,4 @@
-package org.niiish32x.fxdemo.service;
+package org.niiish32x.fxdemo.tools;
 
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
