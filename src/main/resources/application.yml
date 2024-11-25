@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+supos:
+  test:
+    url: http://47.129.0.177:8080/open-api/supos/oodm/v2/attributes/current
+    prefix: sugarplant_sugarplant.CMS.CANE_MANAGEMENT_SYSTEM_SUGAR.sugarplant_sugarplant.
+    ak: aff56aa61a8ce5f1265ff811760ce894
+    sk: be1d486f61de8dca2e1b9da7691c1c78
+  prod:
+    url: http://47.236.10.165:30389/open-api/supos/oodm/v2/attributes/current
+    prefix: sugarapi_sugarapi.CMS.CANE_MANAGEMENT_SYSTEM_SUGAR.sugarapi_sugarapi.
+    ak: 9efe93223680e705d60837b743828acf
+    sk: 4bae75c450750f90e7523ff580841369
