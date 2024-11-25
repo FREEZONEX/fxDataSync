@@ -4,7 +4,7 @@ server:
 supos:
   test:
 #    url: http://47.236.10.165:30391/open-api/supos/oodm/v2/attributes/current
-    url: http://192.168.2.171:30391/open-api/supos/oodm/v2/attributes/current
+    url: http://192.168.2.171:8080/open-api/supos/oodm/v2/attributes/current
     sign: Sign 485a77f0613a6946d3c42f0a7307b7cd-38baef4223f2a4626238dc8ecd419b5bcdb6ef7520e0fa13e45b7b6442dae1c1
     prefix_sugar: sugarapi_sugarapi.LMS.SUGAR_AREA.sugarapi_sugarapi.
     prefix_power: sugarapi_sugarapi.LMS.POWER_AREA.sugarapi_sugarapi.
